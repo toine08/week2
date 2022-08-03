@@ -249,7 +249,7 @@ export default function Home() {
           <h1 className="text-3xl font-semibold">Memos received</h1>
         )}
 
-        <div className="grid gap-3 grid-cols-1 hover:auto-col-max">
+        <div className="grid gap-3 grid-cols-4 hover:auto-col-max sm:grid-cols-2">
           {currentAccount &&
             memos.map((memo, idx) => {
               return (
