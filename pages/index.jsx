@@ -13,7 +13,7 @@ import { BiCoffeeTogo } from "react-icons/bi";
 
 export default function Home() {
   // Contract Address & ABI
-  const contractAddress = "0x2e9de8620fd217a853074EdA1d54D128D9dB1E9F";
+  const contractAddress = "0x6a50989336a5787ADbc39989956306f2d413D88c";
   const contractABI = abi.abi;
 
   // Component state
