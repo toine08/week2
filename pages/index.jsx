@@ -261,7 +261,9 @@ export default function Home() {
             })}
         </div>
       </div>
-      <Foot />
+      <div className="hidden ">//fix footer later
+      <Foot  />
+      </div>
     </div>
   );
 }
