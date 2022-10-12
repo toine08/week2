@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BUY ME A COFFEE
 
-## Getting Started
+## How to use it
 
-First, run the development server:
+Connect your wallet on the Goerli testnet, write your name/pseudo and a small text if you want. Then choose how much you want to give:
 
-```bash
-npm run dev
-# or
-yarn dev
+- Small coffee at 0.001ETH
+- Medium coffee at 0.003ETH
+- Coffee pot at 0.005ETH
+
+When you will click on of the button you will be able to confirm the transaction and the coffee will be send. After few seconds you will be able to see your message on the Memos received ! 
+
+## A bit of background
+
+This site was made as part of the roadtoweb3 programme created by alchemy.
+
+The goal of this week was to create a buy me a coffee page and the smart contract for this.
+
+## What technologies I used ?
+
+For this project, I used [Nextjs](http://nextjs.com), as well as [tailwindcss](https://tailwindcss.com/) for the styling but also [alchemy](http://alchemy.com/nft-api) API to deploy my smart contract on the goerli testnet. 
+
+The site was finished and deployed thanks to [Vercel](http://vercel.com). You can access it here: [https://buymeacafe.vercel.app](https://buymeacafe.vercel.app)
+
+## Difficulties
+
+The biggest difficulty was dealing with the memo received part I had some difficulties to show it how I want. But I did it!
+
+The footer wasn’t really cooperative. At first he was taking half of the page but I finally found a workaround and it works great.
+
+ The styling with tailwind, I had some difficulty making it work but their documentation is rich and very nice to read.
+
+## Clone my project
+
+if you want to take over my project you can do these steps
+
+```jsx
+git clone https://github.com/toine08/week2.git
+cd week2
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Thank you
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Thank you alchemy and their road to web 3 project.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can sign up [here](https://alchemyapi.typeform.com/web3-pioneers) and join the [telegram](https://t.me/+kSVKod0rKbNkOTA5) group and the alchemy [discord](https://www.alchemy.com/discord).
